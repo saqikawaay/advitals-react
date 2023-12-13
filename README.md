@@ -1,9 +1,31 @@
-# Getting Started with Create React App
+# AdVitals: an ads tool to manage ad budgets
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
+Organising the codebase: 
+Easily acces the files & folders that you're looking make it easy don't nest too much. 
+Ducks pattern. Organise your codebase by features. 
+
+(put comments in figma with the folder?)
+
+Sidebar is on the entire app.  As is the Nav. Both live in the Global folder. 
+
+
+Global
+- Sidebar
+- Topbar
+
+components - this contains components that can be used in multiple locations. 
+
+scenes - this has the various pages you can get to
+- Dashboard
+
+
+
+
+
+
+# The rest of this is React Boilerplate 
 In the project directory, you can run:
 
 ### `npm start`
